@@ -45,8 +45,10 @@ def test_iter_heap():
     assert h.heapList[1] == 100
     assert h.size == 9
 
+
 def test_random_heap(random_heap):
     assert random_heap.heapList == [0, 150, 100, 2, 10, 20]
+
 
 def test_push(empty_heap):
     empty_heap.push(25)
